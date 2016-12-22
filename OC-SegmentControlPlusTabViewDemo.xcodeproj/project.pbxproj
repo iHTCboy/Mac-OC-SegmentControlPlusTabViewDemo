@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D7BCFFD1E0C0D8800F73B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BCFFC1E0C0D8800F73B03 /* AppDelegate.m */; };
+		6D7BD0001E0C0D8800F73B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BCFFF1E0C0D8800F73B03 /* main.m */; };
+		6D7BD0031E0C0D8800F73B03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BD0021E0C0D8800F73B03 /* ViewController.m */; };
+		6D7BD0051E0C0D8800F73B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D7BD0041E0C0D8800F73B03 /* Assets.xcassets */; };
+		6D7BD0081E0C0D8800F73B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D7BD0061E0C0D8800F73B03 /* Main.storyboard */; };
+		6D7BD0131E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BD0121E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoTests.m */; };
+		6D7BD01E1E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7BD01D1E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D7BD00F1E0C0D8800F73B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7BCFF01E0C0D8800F73B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7BCFF71E0C0D8800F73B03;
+			remoteInfo = "OC-SegmentControlPlusTabViewDemo";
+		};
+		6D7BD01A1E0C0D8800F73B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D7BCFF01E0C0D8800F73B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D7BCFF71E0C0D8800F73B03;
+			remoteInfo = "OC-SegmentControlPlusTabViewDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D7BCFF81E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-SegmentControlPlusTabViewDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7BCFFB1E0C0D8800F73B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D7BCFFC1E0C0D8800F73B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D7BCFFF1E0C0D8800F73B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D7BD0011E0C0D8800F73B03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D7BD0021E0C0D8800F73B03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D7BD0041E0C0D8800F73B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D7BD0071E0C0D8800F73B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D7BD0091E0C0D8800F73B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7BD00E1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SegmentControlPlusTabViewDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7BD0121E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SegmentControlPlusTabViewDemoTests.m; sourceTree = "<group>"; };
+		6D7BD0141E0C0D8800F73B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D7BD0191E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-SegmentControlPlusTabViewDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7BD01D1E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_SegmentControlPlusTabViewDemoUITests.m; sourceTree = "<group>"; };
+		6D7BD01F1E0C0D8800F73B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7BCFF51E0C0D8800F73B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD00B1E0C0D8800F73B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD0161E0C0D8800F73B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7BCFEF1E0C0D8800F73B03 = {
+			isa = PBXGroup;
+			children = (
+				6D7BCFFA1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */,
+				6D7BD0111E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests */,
+				6D7BD01C1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests */,
+				6D7BCFF91E0C0D8800F73B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7BCFF91E0C0D8800F73B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BCFF81E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo.app */,
+				6D7BD00E1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests.xctest */,
+				6D7BD0191E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7BCFFA1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BCFFB1E0C0D8800F73B03 /* AppDelegate.h */,
+				6D7BCFFC1E0C0D8800F73B03 /* AppDelegate.m */,
+				6D7BD0011E0C0D8800F73B03 /* ViewController.h */,
+				6D7BD0021E0C0D8800F73B03 /* ViewController.m */,
+				6D7BD0041E0C0D8800F73B03 /* Assets.xcassets */,
+				6D7BD0061E0C0D8800F73B03 /* Main.storyboard */,
+				6D7BD0091E0C0D8800F73B03 /* Info.plist */,
+				6D7BCFFE1E0C0D8800F73B03 /* Supporting Files */,
+			);
+			path = "OC-SegmentControlPlusTabViewDemo";
+			sourceTree = "<group>";
+		};
+		6D7BCFFE1E0C0D8800F73B03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BCFFF1E0C0D8800F73B03 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D7BD0111E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BD0121E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoTests.m */,
+				6D7BD0141E0C0D8800F73B03 /* Info.plist */,
+			);
+			path = "OC-SegmentControlPlusTabViewDemoTests";
+			sourceTree = "<group>";
+		};
+		6D7BD01C1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BD01D1E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoUITests.m */,
+				6D7BD01F1E0C0D8800F73B03 /* Info.plist */,
+			);
+			path = "OC-SegmentControlPlusTabViewDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7BCFF71E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7BD0221E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemo" */;
+			buildPhases = (
+				6D7BCFF41E0C0D8800F73B03 /* Sources */,
+				6D7BCFF51E0C0D8800F73B03 /* Frameworks */,
+				6D7BCFF61E0C0D8800F73B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC-SegmentControlPlusTabViewDemo";
+			productName = "OC-SegmentControlPlusTabViewDemo";
+			productReference = 6D7BCFF81E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D7BD00D1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7BD0251E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemoTests" */;
+			buildPhases = (
+				6D7BD00A1E0C0D8800F73B03 /* Sources */,
+				6D7BD00B1E0C0D8800F73B03 /* Frameworks */,
+				6D7BD00C1E0C0D8800F73B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D7BD0101E0C0D8800F73B03 /* PBXTargetDependency */,
+			);
+			name = "OC-SegmentControlPlusTabViewDemoTests";
+			productName = "OC-SegmentControlPlusTabViewDemoTests";
+			productReference = 6D7BD00E1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6D7BD0181E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7BD0281E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemoUITests" */;
+			buildPhases = (
+				6D7BD0151E0C0D8800F73B03 /* Sources */,
+				6D7BD0161E0C0D8800F73B03 /* Frameworks */,
+				6D7BD0171E0C0D8800F73B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D7BD01B1E0C0D8800F73B03 /* PBXTargetDependency */,
+			);
+			name = "OC-SegmentControlPlusTabViewDemoUITests";
+			productName = "OC-SegmentControlPlusTabViewDemoUITests";
+			productReference = 6D7BD0191E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7BCFF01E0C0D8800F73B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iHTCboy;
+				TargetAttributes = {
+					6D7BCFF71E0C0D8800F73B03 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					6D7BD00D1E0C0D8800F73B03 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D7BCFF71E0C0D8800F73B03;
+					};
+					6D7BD0181E0C0D8800F73B03 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D7BCFF71E0C0D8800F73B03;
+					};
+				};
+			};
+			buildConfigurationList = 6D7BCFF31E0C0D8800F73B03 /* Build configuration list for PBXProject "OC-SegmentControlPlusTabViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D7BCFEF1E0C0D8800F73B03;
+			productRefGroup = 6D7BCFF91E0C0D8800F73B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7BCFF71E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */,
+				6D7BD00D1E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoTests */,
+				6D7BD0181E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7BCFF61E0C0D8800F73B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7BD0051E0C0D8800F73B03 /* Assets.xcassets in Resources */,
+				6D7BD0081E0C0D8800F73B03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD00C1E0C0D8800F73B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD0171E0C0D8800F73B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7BCFF41E0C0D8800F73B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7BD0031E0C0D8800F73B03 /* ViewController.m in Sources */,
+				6D7BD0001E0C0D8800F73B03 /* main.m in Sources */,
+				6D7BCFFD1E0C0D8800F73B03 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD00A1E0C0D8800F73B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7BD0131E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7BD0151E0C0D8800F73B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7BD01E1E0C0D8800F73B03 /* OC_SegmentControlPlusTabViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D7BD0101E0C0D8800F73B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7BCFF71E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */;
+			targetProxy = 6D7BD00F1E0C0D8800F73B03 /* PBXContainerItemProxy */;
+		};
+		6D7BD01B1E0C0D8800F73B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D7BCFF71E0C0D8800F73B03 /* OC-SegmentControlPlusTabViewDemo */;
+			targetProxy = 6D7BD01A1E0C0D8800F73B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D7BD0061E0C0D8800F73B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7BD0071E0C0D8800F73B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D7BD0201E0C0D8800F73B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D7BD0211E0C0D8800F73B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D7BD0231E0C0D8800F73B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D7BD0241E0C0D8800F73B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D7BD0261E0C0D8800F73B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-SegmentControlPlusTabViewDemo.app/Contents/MacOS/OC-SegmentControlPlusTabViewDemo";
+			};
+			name = Debug;
+		};
+		6D7BD0271E0C0D8800F73B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC-SegmentControlPlusTabViewDemo.app/Contents/MacOS/OC-SegmentControlPlusTabViewDemo";
+			};
+			name = Release;
+		};
+		6D7BD0291E0C0D8800F73B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC-SegmentControlPlusTabViewDemo";
+			};
+			name = Debug;
+		};
+		6D7BD02A1E0C0D8800F73B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OC-SegmentControlPlusTabViewDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.ihtc.SegmentControlPlusTabViewDemo.OC-SegmentControlPlusTabViewDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "OC-SegmentControlPlusTabViewDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7BCFF31E0C0D8800F73B03 /* Build configuration list for PBXProject "OC-SegmentControlPlusTabViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7BD0201E0C0D8800F73B03 /* Debug */,
+				6D7BD0211E0C0D8800F73B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7BD0221E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7BD0231E0C0D8800F73B03 /* Debug */,
+				6D7BD0241E0C0D8800F73B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D7BD0251E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7BD0261E0C0D8800F73B03 /* Debug */,
+				6D7BD0271E0C0D8800F73B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D7BD0281E0C0D8800F73B03 /* Build configuration list for PBXNativeTarget "OC-SegmentControlPlusTabViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7BD0291E0C0D8800F73B03 /* Debug */,
+				6D7BD02A1E0C0D8800F73B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7BCFF01E0C0D8800F73B03 /* Project object */;
+}
